@@ -1,0 +1,462 @@
+/*
+Theme Name: Concrete Theme
+Theme URI: http://monkeyhouse-media.com
+Description: Custom Theme built from blank theme for Derouin Concrete
+Author: Scott Norris
+Author URI: http://monkeyhouse-media.com
+Version: 2
+*/
+
+@import url('normalize.css');
+@import 'https://fonts.googleapis.com/css?family=Dosis:200,300,400';
+@import 'https://fonts.googleapis.com/css?family=Dosis:200,300,400|Open+Sans|Roboto+Slab';
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif;}
+h2 {font-weight: normal;} /* added so work category titles are not bold */
+#big-image {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:600px;
+	position: absolute;
+	top: 0;
+}
+#big-image.home {
+	background-image: url("/wp-content/uploads/2016/09/big-image-test.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    	width: 100vw;
+}
+
+#big-image.interior {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	margin-top: 30px;
+}
+
+
+h2 	{padding: 0px; margin: 0px;}
+a {color: white;}
+.pwaimg	{ padding: 5px; margin: 0px; background: #f1f1f1; border-style: solid; border-width: 1px; border-color: #CCC; }
+p	{
+	font-size: 1.4em;
+	color: #8e96aa;
+}
+
+p.home-text {
+	color: #8e96aa;
+	font-size:1.2em;
+	//text-shadow: 2px 2px #000;
+}
+
+h1 {
+	font-size: 2.4em;
+	text-transform: uppercase;
+	font-family: 'Cinzel', serif;
+}
+
+h2.home-contact {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: 'Cinzel', serif;
+	color: white;
+}
+
+h2.home-contact a span.email {
+		font-size:1em;
+		color: white;
+		text-transform: lowercase;
+	}
+
+#pages {
+	padding-top:   	20px;
+	padding-bottom:	10px;
+	width: 		100%;
+	float: 		right;
+	font-size:	12px;
+}
+
+#title {
+	width: 		100%;
+	margin: 	20px 0px 10px 5px;
+
+}
+
+
+
+h2#page-title {
+	font-size: 3em;
+	font-family: 'Cinzel', serif;
+}
+
+#pwafooter {
+	float:		right;
+	text-align:	center;
+        width:          100%;
+        margin:         10px 0px 10px 0px;
+	font-size:	10px;
+	color:		#C0C0C0;
+	font-style:	italic;
+
+}
+
+#pwafooter a { color: #C0C0C0; }
+.current_page 	{ font-weight: bold; }
+.back_to_list 	{ padding: 0px; margin: 0px; font-style: italic; font-size: 11px; color: #ffffff; }
+.titlepg	{ font-size: 13px; color: #808080; padding: 3px 0px 0px 2px; margin: 0px; }
+.overlaypg      { font-size: 13px; color: #000; padding: 3px 0px 0px 2px; margin: 0px; }
+.titlestats	{ font-size: 11px; color: #808080; padding: 0px 0px 10px 2px; margin: 0px; font-style: italic;}
+.overlaystats   { font-size: 11px; color: #808080; padding: 5px 0px 0px 2px; margin: 0px; font-style: italic;}
+.thumbnail 	{ float: left; padding-top: 5px; padding-left: 10px; padding-right: 10px; padding-bottom: 0px; }
+.exif		{ font-size:11px; color:#808080; float: left; }
+.dlimg		{ float: right; }
+
+a.overlay{position:relative;display:block;width:151px;height:151px;margin-bottom:25px;text-decoration:none;font-family:Verdana,Helvetica,Arial;color:#000}
+a.overlay:hover{background:#FFF;}
+a.overlay span{display:none;}
+a.overlay:hover span{display:block;color:#000;position:absolute;top:0;left:0;width:151px;height:151px;padding:10px;background:#FFF;z-index:999;cursor:pointer;opacity: 0.80; filter:alpha(opacity=80);}
+
+a.options{position:relative;display:block;height:20px;margin-bottom:0px;text-decoration:none;font-family:Verdana,Helvetica,Arial;color:#000}
+a.options:hover{background:#FFF;}
+a.options span{display:none;}
+a.options:hover span{display:block;font-size:11px;color:#808080;position:absolute;top:0;left:0;height:16px;padding:0px;background:#FFF;z-index:999;cursor:pointer;opacity: 0.80; filter:alpha(opacity=80);}
+
+
+/****************************************************
+
+Styling moved from internal stylesheet
+
+****************************************************/
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #444c89;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+ #home-container, #interior-container {
+	border: 0px;
+	padding:0 5%;
+	text-align:center;
+}
+
+#home-container {
+	margin-top: 30px;
+}
+
+#interior-container {
+	margin-top: -10px;
+	padding: 0 15%;
+}
+
+ #home-container #header {
+	 width: 100%;
+	 margin: 0 auto;
+}
+
+#logo {
+	float:left;
+	width:100%;
+}
+
+#logo-internal {
+	width: 25%;
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	float:left;
+	max-width:330px;
+	min-width:280px
+}
+
+#logo-internal img {
+	width: 100%;
+}
+
+ #home-container #content {
+	width: 800px;
+ 	margin: 0 auto;
+	color:#8e96aa; font-size:1.5em;
+}
+
+ #home-container #nav {
+	color:#8e96aa; font-size:10px;
+	margin: 0 auto 4em auto;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin: .3em;
+
+}
+
+#nav ul li a, #nav ul li a:visited {
+    font-family: 'Cinzel', serif;
+    font-size: 2.4em;
+    color: #fff;
+    display: block;
+    padding: 13px;
+    border-radius: 8px;
+    background-color: rgba(142, 150, 170, 0.65);
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+#nav.interior ul li a, #nav.interior ul li a:visited {
+	font-size:1em;
+}
+
+#nav ul li a:hover {
+	background-color: rgba(68, 76, 137, 1);
+	text-decoration: none;
+}
+
+#contact-info {
+	font-size:1.3em;
+	text-shadow: 2px 2px 8px #000;
+}
+
+.contact-email {
+	white-space: nowrap;
+}
+.contact-phone{
+	white-space: nowrap;
+}
+
+/**************************************
+
+Wordpress Page content
+
+*************************************/
+
+.entry {
+	text-align: left;
+}
+
+.contact-us-data {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-us-data article {
+  width: 48%;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.contact-us-data h1 {
+  text-transform: none;
+  font-size: 24px;
+}
+
+.contact-us-data h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#footer {
+	margin-top: 1em;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	clear: both;
+	font-size: 12px;
+	font-family: 'Cinzel', serif;
+}
+
+.facebook-footer {
+  line-height: 1.6em;
+  padding-right: 1.4em;
+}
+
+.facebook-footer img {
+  width: auto;
+}
+
+.button {
+    background-color: rgba(142, 150, 170, 0.65);
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+	background: rgba(68, 76, 137, 1);
+}
+
+/*.button {
+	position:relative;
+	background-image: url('images/HomeBtn_Up.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	color:white;
+	cursor:pointer;}
+
+.buttonOver {position:relative;
+	background-image: url('images/HomeBtn_Over.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	color:white;
+	cursor:pointer;}*/
+
+
+body,td,th {
+	color: white;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a.textLink {
+	color: #10184c;
+	text-decoration:none;
+	background-color: #8e96aa;
+	}
+
+a.textLink:hover {
+	color: #10184c;
+	text-decoration:none;
+	background-color:#b5bccd;
+	}
+
+#interior-container #nav.interior {
+	width:100%;
+	height: 350px;
+	}
+
+@media only screen and (max-width: 736px) {
+
+	#header {
+		width:auto;
+	}
+	#home-container, #interior-container {
+		padding:0;
+	}
+	#home-container #header {
+		width:75%;
+		padding:0;
+	}
+	#home-container #content {
+		width:100%;
+		margin:0;
+	}
+	#logo {
+		padding: 0;
+    		width: 100%;
+	}
+	#logo-internal {
+		padding:0;
+		margin: 0 auto;
+		max-width:auto;
+		min-width:auto;
+		width:100%;
+		float: none;
+	}
+	#logo-internal img {
+		width:80%;
+	}
+	#logo img {
+		width:80%;
+	}
+        #footer .facebook-footer img {
+                width: auto;
+        }
+	h2.home-contact {
+		font-size:1.3em;
+	}
+	#interior-container #nav.interior {
+		height: auto;
+	}
+	#nav ul {
+		padding:0;
+	}
+	#nav ul li a, #nav ul li a:visited {
+		font-size:1.3em;
+	}
+	#big-image {
+		height:auto;
+	}
+	#big-image.home {
+    		overflow: hidden;
+	}
+	#contact-info {
+		width:95%;
+		margin:0 auto;
+	}
+	.entry p {
+		padding:10px;
+	}
+	#nav.interior ul li a, #nav.interior ul li a:visited {
+    		font-size: .7em;
+	}
+       .facebook-footer img {
+           width: auto;
+        }
+}
+
+
+
+@media only screen and (max-width: 908px) and (min-width: 736px;) {
+  #nav.home {
+    padding: 0 94px;
+}
+
+/******************************************
+
+Responsive Breakpoints
+
+******************************************/
+
+
+
+
+/*******************************************
+
+Override styling for Envira Gallery Plug-in
+
+******************************************/
+
+#top .envira-gallery-wrap .envira-gallery-public.envira-gallery-css-animations .envira-gallery-item img,
+#top .envira-gallery-wrap .envira-gallery-public.envira-gallery-css-animations .envira-gallery-item a:hover img {
+    opacity: 1 !important;
+    transition: all .2s ease-in-out;
+}
+
+.envira-gallery-wrap, .envira-gallery-wrap *, .envira-tags-filter-list, .envira-tags-filter-list * {
+  margin: 20px;
+}
+
+.envira-album-title {
+  line-height: 1.125;
+}
+
+
+/*******************************************
+
+Override styling for Customer Reviews Plug-in
+
+******************************************/
+
+.wpcr3_div_2 {
+  margin: 0 auto;
+}
+
+wpcr3_content p {
+  font-size: 16px;
+}

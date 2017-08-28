@@ -1,0 +1,112 @@
+# Copyright (C) 2015 Envira Gallery - NextGEN Importer
+# This file is distributed under the same license as the Envira Gallery - NextGEN Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envira Gallery - NextGEN Importer 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/envira-nextgen-"
+"importer\n"
+"POT-Creation-Date: 2015-12-21 11:26+0100\n"
+"PO-Revision-Date: 2016-02-23 16:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/ajax.php:37
+msgid "No gallery was selected"
+msgstr "No se ha seleccionado ninguna galería"
+
+#: includes/admin/ajax.php:87
+msgid "No images found in gallery. Skipping..."
+msgstr "No hay imágenes en la galería. Omitiendo..."
+
+#: includes/admin/ajax.php:182 includes/admin/ajax.php:341
+msgid "Imported!"
+msgstr "¡Importado!"
+
+#: includes/admin/ajax.php:216
+msgid "No album was selected"
+msgstr "No se ha seleccionado ningún album"
+
+#: includes/admin/ajax.php:233
+msgid "No galleries found in album. Skipping..."
+msgstr "No se han encontrado galerías en el album. Omitiendo..."
+
+#: includes/admin/settings.php:78
+msgid "Envira NextGEN Import"
+msgstr "Importador Envira NextGEN"
+
+#: includes/admin/settings.php:79
+msgid "NextGEN Import"
+msgstr "Importador NextGEN"
+
+#: includes/admin/settings.php:143
+msgid "Importing"
+msgstr "Importando"
+
+#: includes/admin/settings.php:146
+msgid "Please choose at least one NextGEN Gallery to import."
+msgstr "Por favor, elija al menos una galería NextGEN para importar."
+
+#: includes/admin/settings.php:149
+msgid "Please choose at least one NextGEN Album to import."
+msgstr "Por favor, elija al menos un album NextGEN para importar."
+
+#: includes/admin/settings.php:199
+msgid "Galleries"
+msgstr "Galerías"
+
+#: includes/admin/settings.php:204
+msgid "Albums"
+msgstr "Álbumes"
+
+#: includes/admin/settings.php:238
+msgid "Galleries to Import"
+msgstr "Galerías a importar"
+
+#: includes/admin/settings.php:254 includes/admin/settings.php:323
+msgid "Imported"
+msgstr "Importado"
+
+#: includes/admin/settings.php:271
+msgid "Import Galleries"
+msgstr "Importar galerías"
+
+#: includes/admin/settings.php:307
+msgid "Albums to Import"
+msgstr "Álbumes a importar"
+
+#: includes/admin/settings.php:340
+msgid "Import Albums"
+msgstr "Importar álbumes"
+
+#: includes/admin/settings.php:363
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Plugin Name of the plugin/theme
+msgid "Envira Gallery - NextGEN Importer"
+msgstr "Envira Gallery - NextGEN Importer"
+
+#. Plugin URI of the plugin/theme
+msgid "http://enviragallery.com"
+msgstr "http://enviragallery.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Adds an importing tool to import NextGEN galleries and albums into Envira."
+msgstr ""
+"Agrega una herramienta de importación para importar galerías y álbumes "
+"NextGen en Envira."
+
+#. Author of the plugin/theme
+msgid "Thomas Griffin"
+msgstr "Thomas Griffin"
+
+#. Author URI of the plugin/theme
+msgid "http://thomasgriffinmedia.com"
+msgstr "http://thomasgriffinmedia.com"

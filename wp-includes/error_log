@@ -1,0 +1,1 @@
+[18-Jul-2017 23:37:15 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/derouinc/public_html/wp-includes/rss-functions.php on line 8
